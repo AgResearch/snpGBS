@@ -112,11 +112,10 @@ bcftools mpileup -I -Ou -f ref.fa -b bamlist -a AD | bcftools call -cv - | bcfto
 
 **To test `snpGBS`, we provide the following files in the `example` folder**
 
-1. `example.fastq`
-2. `barcodes.txt` and `barcodes.fasta`
-3. `ref.fa`
+- `barcodes.txt` and `barcodes.fasta`
 
-**Results can be found in `/dataset/GBS_Sim/archive/snpGBS`.**
+
+**`example.fastq` and `ref.fa` files can be found in `/dataset/GBS_Sim/archive/snpGBS`.**
 
 
 ### Conda Environment
