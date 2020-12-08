@@ -9,7 +9,7 @@ Previously known as `HOMEBREW`, developed by **Rudiger Brauning**.
 
 Existing SNP calling pipelines/software often come with built-in filtering processes, which can introduce **systematic bias**. Different method has its own algorithm to identify and define SNPs, and it can lead to **moderate to large variations in final outputs**. A **simple**, **intuitive** and **consistent** bioinformatics workflow is thus needed for developing new analytical methods.
 
-Here we present `snpGBS`, a three-step pipeline to identify SNPs from GBS data:
+Here we present `snpGBS`, a **three-step approach to identify SNPs from GBS data**:
 
 
 
