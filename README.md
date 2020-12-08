@@ -115,7 +115,7 @@ bcftools mpileup -I -Ou -f ref.fa -b bamlist -a AD | bcftools call -cv - | bcfto
 - `barcodes.txt` and `barcodes.fasta`
 
 
-**`example.fastq` and `ref.fa` files (as well as the expected outputs) can be found in `/dataset/GBS_Sim/archive/snpGBS`.**
+**`example.fastq`, `ref.fa` files (and the expected outputs) can be found in `/dataset/GBS_Sim/archive/snpGBS`.**
 
 
 ### Conda Environment
