@@ -7,7 +7,7 @@ Previously known as `HOMEBREW`, developed by **Rudiger Brauning**.
 
 ## Overview
 
-Existing SNP calling pipelines/software often come with built-in filtering processes, which can introduce **systematic bias**. Different method has its own algorithm to identify and define SNPs, and it can lead to **moderate to large variations in final outputs**. A **simple**, **intuitive** and **consistent** bioinformatics workflow is thus needed for developing new analytical methods.
+Existing SNP calling pipelines/software often come with built-in filtering processes, which can introduce **systematic bias**. Each different method has its own algorithm to identify and define SNPs, and it can lead to **moderate to large variations in final outputs**. A **simple**, **intuitive** and **consistent** bioinformatics workflow is thus needed for developing new analytical methods.
 
 Here we present `snpGBS`, a **three-step approach to identify SNPs from GBS data**:
 
@@ -15,7 +15,7 @@ Here we present `snpGBS`, a **three-step approach to identify SNPs from GBS data
 
 ### Step One: Demultiplexing
 
-We use `cutadapt` to demultiplex the raw GBS data (i.e. **.fastq** or**.fastq.gz** file)
+We use `cutadapt` to demultiplex the raw GBS data (i.e. **.fastq** or **.fastq.gz** file)
 
 More information about `cutadapt`: <https://cutadapt.readthedocs.io/en/stable/guide.html#demultiplexing>
 
@@ -120,7 +120,7 @@ bcftools mpileup -I -Ou -f ref.fa -b bamlist -a AD | bcftools call -cv - | bcfto
 
 ### Conda Environment
 
-We built a `conda` **enviroment** located in `/home/kangj/conda-envs/homebrew`. You can activate by
+We built a `conda` **enviroment** located in `/home/kangj/conda-envs/homebrew`. You can activate it by
 
 ```bash
 conda activate /home/kangj/conda-envs/homebrew/
@@ -185,7 +185,7 @@ It contains the following **packages**:
 
 **Unfortunately, there's a bug in  the `Samtools` package of `conda` at the moment (i.e. `Samtools shared library libcrypto.so.1.0.0 not found`).**
 
-**So we ahev to use the old version of `Samtools` in another `conda` enviroment (i.e., ` bifo-essential`), via**
+**So we have to use the old version of `Samtools` in another `conda` enviroment (i.e., ` bifo-essential`), via**
 ```bash
 conda activate bifo-essential
 ```
