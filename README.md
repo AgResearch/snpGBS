@@ -20,7 +20,8 @@ We use `cutadapt` to demultiplex the raw GBS data (i.e. **.fastq** or **.fastq.g
 More information about `cutadapt`: <https://cutadapt.readthedocs.io/en/stable/guide.html#demultiplexing>
 
 ```bash
-cutadapt -j 8 -e 0 --no-indels -a common_adapter=AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAG -g file:barcodes.fasta -o "demultiplexed_{name}.fastq.gz" example.fastq >01.demultiplexed.stdout 2>01.demultiplexed.stderr
+cutadapt -j 8 -a common_adapter=AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAG -o example.trimmed.fastq example.fastq 
+cutadapt -j 8 -e 0 --no-indels -a common_adapter=AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAG -g file:barcodes.fasta -o "demultiplexed_{name}.fastq.gz" example.trimmed.fastq >01.demultiplexed.stdout 2>01.demultiplexed.stderr
 ```
 
 
