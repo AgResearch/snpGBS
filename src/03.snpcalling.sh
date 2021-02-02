@@ -19,6 +19,5 @@ for i in *.sorted.bam;
     echo $i;
 done > bamlist;
 
-
 ## 3.4 calling SNPs
 bcftools mpileup -I -Ou -f ref.fa -b bamlist -a AD | bcftools call -cv - | bcftools view -M2 - >example.vcf
