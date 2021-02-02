@@ -1,56 +1,10 @@
 name: snpGBS
 channels:
-  - conda-forge
   - bioconda
+  - conda-forge
   - defaults
 dependencies:
-  - _libgcc_mutex
-  - _openmp_mutex
-  - bcftools
-  - bowtie2
-  - bzip2
-  - c-ares
-  - ca-certificates
-  - certifi
-  - curl
   - cutadapt
-  - dnaio
-  - gsl
-  - htslib
-  - isa-l
-  - krb5
-  - ld_impl_linux-64
-  - libblas
-  - libcblas
-  - libcurl
-  - libdeflate
-  - libedit
-  - libev
-  - libffi
-  - libgcc
-  - libgcc-ng
-  - libgfortran-ng
-  - libgfortran5
-  - libgomp
-  - libnghttp2
-  - libopenblas
-  - libssh2
-  - libstdcxx-ng
-  - ncurses
-  - openssl
-  - perl
-  - pigz
-  - pip
-  - python
-  - python_abi
-  - readline
+  - bowtie2
   - samtools
-  - setuptools
-  - sqlite
-  - tbb
-  - tk
-  - wheel
-  - xopen
-  - xz
-  - zlib
-
+  - bcftools
