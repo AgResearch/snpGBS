@@ -36,7 +36,7 @@ We use `bowtie2` to align and map GBS reads. More information about `bowtie2`: <
 bowtie2-build ref.fa example >index.stdout 2>index.stderr
 
 ## 2.2 alignment
-for i in ./demultiplexed-barcode*.fastq.gz
+for i in ./demultiplexed_barcode*.fastq.gz
  do
     echo $i;
     bowtie2 --very-fast-local -x example -U $i -S ./${i##*/}.sam 2>./${i##*/}.bowtie2.stdout;
