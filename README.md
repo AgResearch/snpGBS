@@ -1,5 +1,10 @@
 # snpGBS
 
+![GitHub repo size](https://img.shields.io/github/repo-size/AgResearch/snpGBS?style=flat-square)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/AgResearch/snpGBS?color=purple&style=flat-square)
+[![GitHub issues](https://img.shields.io/github/issues/AgResearch/snpGBS)](https://github.com/AgResearch/snpGBS/issues)
+[![GitHub license](https://img.shields.io/github/license/AgResearch/snpGBS?style=flat-square)](https://github.com/AgResearch/snpGBS/blob/main/LICENSE)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FAgResearch%2FsnpGBS&count_bg=%2379C83D&title_bg=%23060707&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=true)](https://hits.seeyoufarm.com)
 
 Previously known as `HOMEBREW`, developed by **Rudiger Brauning**.
 
