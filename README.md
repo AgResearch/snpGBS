@@ -113,7 +113,7 @@ bcftools mpileup -I -Ou -f ref.fa -b bamlist -a AD | bcftools call -cv - | bcfto
 
 ### Example
 
-We help users with testing `snpGBS`, we put together an example with the following files
+To help users with testing `snpGBS`, we put together an example with the following files
 
 - **Raw GBS data**: `example.fastq`can be found in <https://figshare.com/articles/dataset/snpGBS/13591274>
 
