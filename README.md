@@ -130,3 +130,12 @@ Here's a list of expected outputs
 - **Mapped, sorted and indexed BAM files**: `demultiplexed-barcode*.fastq.gz.sorted.bam(.bai)` in https://github.com/AgResearch/snpGBS/tree/main/example/mapping
 
 - **VCF file**: `example.vcf` stores all the SNP information, it can be downloaded from <https://figshare.com/articles/dataset/snpGBS/13591274>
+
+### What's Next?
+
+- [**KGD**](https://github.com/AgResearch/KGD): R code for the analysis of genotyping-by-sequencing (GBS) data, primarily to construct a genomic relationship matrix for the genotyped individuals.   
+
+- [**GUSLD**](https://github.com/AgResearch/GUS-LD): An R package for estimating linkage disequilibrium using low and/or high coverage sequencing data without requiring filtering with respect to read depth.
+
+
+- [**SMAP**](https://gitlab.com/truttink/smap) a software package that analyzes read mapping distributions and performs haplotype calling to create multi-allelic molecular markers.
