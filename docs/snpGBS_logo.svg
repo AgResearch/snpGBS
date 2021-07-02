@@ -50,13 +50,13 @@
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
      inkscape:cx="373.32798"
-     inkscape:cy="70.62537"
+     inkscape:cy="127.76823"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="3278"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1" />
   <metadata
@@ -75,6 +75,13 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-2.7848406,-40.282246)">
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       id="rect856"
+       width="174.28482"
+       height="72.000778"
+       x="0.66817397"
+       y="39.753078" />
     <g
        id="g35"
        transform="translate(-9.6885204,11.626224)">
