@@ -1,3 +1,4 @@
+<img src="https://github.com/akonkia/snpGBS/blob/main/docs/snpGBS_logo.svg" width="400">
 # snpGBS
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/AgResearch/snpGBS?style=flat-square)
