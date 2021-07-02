@@ -1,5 +1,6 @@
 <img src="https://github.com/akonkia/snpGBS/blob/main/docs/snpGBS_logo.svg" width="400">
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/akonkia/snpGBS/blob/main/tutorials/snpGBS.ipynb)
 ![GitHub repo size](https://img.shields.io/github/repo-size/AgResearch/snpGBS?style=flat-square)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/AgResearch/snpGBS?color=purple&style=flat-square)
 [![GitHub issues](https://img.shields.io/github/issues/AgResearch/snpGBS)](https://github.com/AgResearch/snpGBS/issues)
