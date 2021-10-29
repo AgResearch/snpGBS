@@ -132,6 +132,13 @@ Here's a list of expected outputs
 
 - **VCF file**: `example.vcf` stores all the SNP information, it can be downloaded from <https://figshare.com/articles/dataset/snpGBS/13591274>
 
+### Citation 
+
+If you use snpGBS, please cite 
+
+- Kang, J., Dodds, K., Byrne, S., Faville, M., Black, M., Hess, A., Hess, M., McCulloch, A., Jacobs, J., Milbourne, D., Wilcox, P., & Brauning, R. (n.d.). snpGBS: A Simple and Flexible Bioinformatics Workflow to Identify SNPs from Genotyping-by-Sequencing Data. In Exploiting genetic diversity of forages to fulfil their economic and environmental roles: Proceedings of the 2021 Meeting of the Fodder Crops and Amenity Grasses Section of EUCARPIA. Exploiting genetic diversity of forages to fulfil their economic and environmental roles. Univerzita Palackého v Olomouci. https://doi.org/10.5507/vup.21.24459677.16
+
+
 ### What's Next?
 
 - [**KGD**](https://github.com/AgResearch/KGD): R code for the analysis of genotyping-by-sequencing (GBS) data, primarily to construct a genomic relationship matrix for the genotyped individuals.   
